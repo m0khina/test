@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+ }
+#header{
+    background: url("../imj/hand_ux1.png") ;
+}
+body{
+    background: #000;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+.header{
+    margin-top: 40px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border: 3px solid #FF0000;
+    border-radius: 12px;
+}
+.menuHead{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.menuHead a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.lineTel{
+    border: 3px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 5px;
+}
+.lineTel a{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ux{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bac{
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    background: #D81010;
+    filter: blur(150px);
+}
+.uxTitle{
+    font-weight: 700;
+    font-size: 144px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.lineUx{
+    border: 1px solid #FF0000;
+    width: 300px;
+    height: 0;
+    z-index: 1;
+}
+.title1{
+    margin: 13px 0 0 0;
+    font-weight: 700;
+    font-size: 33px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.title2{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.btnUx{
+    margin: 25px 0;
+    padding: 8px 20px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+}
+
+.oNas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0 0 0;
+}
+.fixed{
+    width: 80px;
+    height: 80px;
+    background: #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.lineONas{
+    border: 1px solid #FF0000;
+    width: 180px;
+}
+.oNas h1{
+    padding: 7px 0;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.oNas h2{
+    padding: 20px 0 62px 0;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.peoples{
+    padding: 0 0 70px 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.irina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.irina h1{
+    padding: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.lineIrina{
+    width: 95px;
+    height: 0;
+    border: 1px solid #FF0000;
+}
+.alex h1{
+    padding: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.alex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marina h1{
+    padding: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.dizains{
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.lredizain{
+    border:1px solid red;
+    width: 232px;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lredizain h1{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.lredizain h2{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.ldizain{
+    border:1px solid red;
+    width: 232px;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ldizain h1{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.ldizain h2{
+    margin-top: 50px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.btnONas{
+    padding: 12px 18px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 210px;
+}
+.partfolio{
+    padding: 220px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logPartfo{
+    border: 1px solid red;
+    width: 360px;
+    height: 0;
+}
+.partfolio h1{
+    padding: 5px 0 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.bac1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #D81010;
+    filter: blur(150px);
+    border-radius: 50%;
+    z-index: -1;
+}
+.partfo1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partfo1 img{
+    margin-top: 90px;
+}
+.titleP1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleP1 h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.btnPartfo{
+    margin-top: 60px;
+    padding: 12px 18px;
+    background: #FF0000;
+    border-radius: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+.partfo2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.bac2{
+    margin-left: 650px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #D81010;
+    filter: blur(150px);
+    border-radius: 50%;
+    z-index: -1;
+}
+.partfo3{
+    margin-top: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partfo4{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.btnPartfo2{
+    padding: 12px 18px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 80px;
+}
+.handP1{
+    margin-top: -300px;
+}
+.handP2{
+    margin-top: -760px;
+    margin-left: 600px;
+}
+.otzyv{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineOtzyv{
+    border: 1px solid red;
+    width: 250px;
+    height: 0;
+}
+.otzyv h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.fon{
+    padding: 80px 180px 0 180px;
+    margin-top: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.fon img{
+    width: 600px;
+    height: 300px;
+}
+.otzyvImg{
+    z-index: 1;
+    margin-top: 70px;
+}
+.fixed1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    margin-left:-1060px;
+    z-index: 1;
+}
+.fixed2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    margin-left:1060px;
+    z-index: 1;
+}
+.elipses{
+    width: 6%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elips1{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #EA0202;
+    filter: blur(2px);
+}
+.elips3{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #EA0202;
+    filter: blur(2px);
+}
+.elips2{
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    background: #FF0000;
+}
+.btnOtzyv{
+    margin: 30px 0;
+    padding: 12px 35px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+.lineVop{
+    margin-left: 400px;
+    margin-top: 300px;
+    border: 1px solid red;
+    width: 537px;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineVop h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
